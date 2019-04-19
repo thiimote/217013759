@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ic_add"
+            android:icon="@drawable/ic_add"
+            android:title="Add" />
+        <item
+            android:id="@+id/ic_view"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="View" />
+        <item
+            android:id="@+id/ic_edit"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Edit" />
+    </group>
+
+    <item android:title="Modify Profile">
+        <menu>
+            <item
+                android:id="@+id/ic_changepassword"
+                android:icon="@drawable/ic_edit"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/ic_changeprofile"
+                android:icon="@drawable/ic_person_pin_black_24dp"
+                android:title="Change profile" />
+        </menu>
+    </item>
+
+</menu>
